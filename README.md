@@ -14,9 +14,7 @@ pip3 install -r requirements.txt
 ```
 
 Download the dataset from Kaggle.
-```bash
-https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset?datasetId=550917
-```
+[https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset?datasetId=550917](https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset?datasetId=550917)
 
 Extract the downloaded file into a new folder "dataset". Your folder structure should now look like this.
 ```bash
