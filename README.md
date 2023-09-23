@@ -35,6 +35,33 @@ Then run this command to rearrange the dataset.
 python3 main.py --create_dataset --dataset [Choose a name, for example, "dataset01"]
 ```
 
+## Get Started
+
+Train for 10 epochs and save to a specified path.
+```bash
+python3 main.py --dataset [The name you chose, e.g. "dataset01"] --epochs 10 --train --save [path]
+```
+
+Evaluate your existing model.
+```bash
+python3 main.py --dataset [The name you chose, e.g. "dataset01"] --evaluate --load [path]
+```
+
+Use your model to predict an image.
+```bash
+python3 main.py --dataset [The name you chose, e.g. "dataset01"] --load [model path] --predict [image path]
+```
+
+Train an existing model further.
+```bash
+python3 main.py --dataset [The name you chose, e.g. "dataset01"] --load [old model path] --epochs 10 --train --save [new model path]
+```
+
+For more help, look at the "Usage" section or run
+```bash
+python3 main.py --help
+```
+
 ## Usage
 
 ```bash
