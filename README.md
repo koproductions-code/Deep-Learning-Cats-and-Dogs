@@ -33,7 +33,7 @@ Extract the downloaded file into a new folder "dataset". Your folder structure s
 
 Then run this command to rearrange the dataset.
 ```bash
-python3 main.py --create_dataset --dataset [Choose a name]
+python3 main.py --create_dataset --dataset [Choose a name, for example, "dataset01"]
 ```
 
 ## Usage
