@@ -84,7 +84,7 @@ options:
 ## Attribution
 I used some code from a tutorial by Fares Elmenshawii in Manager.py and Dataset.py.
 
-Check the tutorial out [here](https://www.kaggle.com/code/fareselmenshawii/cats-vs-dogs-classification/notebook).
+Check out the tutorial [here](https://www.kaggle.com/code/fareselmenshawii/cats-vs-dogs-classification/notebook).
 
 It is licensed under the [Apache 2.0 License](https://github.com/koproductions-code/Deep-Learning-Training/blob/master/Fares-Elmenshawii-License.md).
 
