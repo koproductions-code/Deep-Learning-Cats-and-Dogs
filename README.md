@@ -1,6 +1,12 @@
 # Deep-Learning-Training
 
 ## Installation
+Clone this repository and cd into it.
+```bash
+git clone https://github.com/koproductions-code/Deep-Learning-Training
+cd Deep-Learning-Training
+```
+
 Use pip to install all requirements.
 
 ```bash
@@ -14,7 +20,15 @@ https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset?datas
 
 Extract the downloaded file into a new folder "dataset". Your folder structure should now look like this.
 ```bash
-
+.
+├── dataset
+│   └── PetImages
+│       ├── Cat
+│       └── Dog
+├── main.py
+├── README.md
+├── requirements.txt
+└── util
 ```
 
 Then run this command to rearrange the dataset.
