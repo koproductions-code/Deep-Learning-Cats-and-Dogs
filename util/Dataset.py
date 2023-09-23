@@ -4,7 +4,7 @@ import shutil
 class Dataset(object):
 
     def __init__(self, path):
-        self.dogs_path = 'dataset3/Dog'
+        self.dogs_path = 'dataset/PetImages/Dog'
         self.cats_path = 'dataset3/Cat'
 
         self.real_data = path
