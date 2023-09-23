@@ -28,6 +28,7 @@ Extract the downloaded file into a new folder "dataset". Your folder structure s
 ├── main.py
 ├── README.md
 ├── requirements.txt
+├── models
 └── util
 ```
 
