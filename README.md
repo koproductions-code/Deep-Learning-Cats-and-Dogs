@@ -1,12 +1,5 @@
 # Deep-Learning-Training
 
-## Attribution
-I used some code from a tutorial by Fares Elmenshawii in Manager.py and Dataset.py.
-
-Check the tutorial out [here](https://www.kaggle.com/code/fareselmenshawii/cats-vs-dogs-classification/notebook).
-
-It is licensed under the [Apache 2.0 License](https://github.com/koproductions-code/Deep-Learning-Training/blob/master/Fares-Elmenshawii-License.md).
-
 ## Installation
 Clone this repository and cd into it.
 ```bash
@@ -87,6 +80,14 @@ options:
   --predict PREDICT  Image path to predict
   --epochs EPOCHS    Define number of epochs
 ```
+
+## Attribution
+I used some code from a tutorial by Fares Elmenshawii in Manager.py and Dataset.py.
+
+Check the tutorial out [here](https://www.kaggle.com/code/fareselmenshawii/cats-vs-dogs-classification/notebook).
+
+It is licensed under the [Apache 2.0 License](https://github.com/koproductions-code/Deep-Learning-Training/blob/master/Fares-Elmenshawii-License.md).
+
 
 ## License
 MIT License
