@@ -13,7 +13,7 @@ Use pip to install all requirements.
 pip3 install -r requirements.txt
 ```
 
-Download the dataset from kaggle.
+Download the dataset from Kaggle.
 ```bash
 https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset?datasetId=550917
 ```
