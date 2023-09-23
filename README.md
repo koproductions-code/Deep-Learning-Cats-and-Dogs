@@ -1,7 +1,7 @@
 # Deep-Learning-Training
 
 ## Attribution
-I used some code from this tutorial by Fares Elmenshawii in Manager.py and Dataset.py.
+I used some code from a tutorial by Fares Elmenshawii in Manager.py and Dataset.py.
 
 Check the tutorial out [here](https://www.kaggle.com/code/fareselmenshawii/cats-vs-dogs-classification/notebook).
 
