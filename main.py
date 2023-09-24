@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+import os
 from util.Dataset import Dataset
 from util.Manager import Manager
 import argparse
@@ -26,6 +26,10 @@ if __name__ == "__main__":
     
     if args.dataset is None:
         raise ValueError("You must specify a dataset path")
+    
+    if args.save is not None:
+        if not(os.path.exists(args.save)):
+            raise ValueError("This directory already exists. Choose one that does not exist.")
 
     dataset = Dataset(args.dataset)
 

@@ -86,9 +86,10 @@ class Manager(object):
         self.model.load_weights(path).expect_partial()
 
     def save(self, path):
-        os.mkdir(path)
-        path = path + '/weights'
-        self.model.save_weights(path)
+        if not os.path.exists(path):
+            os.mkdir(path)
+            path = path + '/weights'
+            self.model.save_weights(path)
 
     def train(self, epochs):
         _ = self.model.fit(self.train_generator, epochs=epochs, validation_data=self.validation_generator)
