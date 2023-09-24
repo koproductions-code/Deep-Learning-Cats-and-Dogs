@@ -28,7 +28,7 @@ if __name__ == "__main__":
         raise ValueError("You must specify a dataset path")
     
     if args.save is not None:
-        if not(os.path.exists(args.save)):
+        if os.path.exists(args.save):
             raise ValueError("This directory already exists. Choose one that does not exist.")
 
     dataset = Dataset(args.dataset)
