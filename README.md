@@ -1,4 +1,4 @@
-# Deep-Learning-Training
+# Deep-Learning-Cats-and-Dogs
 
 ## Installation
 Clone this repository and cd into it.
