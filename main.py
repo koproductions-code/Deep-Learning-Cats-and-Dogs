@@ -30,7 +30,7 @@ if __name__ == "__main__":
     dataset = Dataset(args.dataset)
 
     if args.create_dataset:
-        dataset.create_train_test_valid()
+        dataset.create_dataset()
     else:
         manager = Manager(dataset)
         if args.load is not None:
