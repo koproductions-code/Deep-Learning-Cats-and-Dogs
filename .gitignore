@@ -2,4 +2,4 @@ dataset/
 processed-data/*/
 util/__pycache__
 __pycache__
-.DS_STORE
+.DS_Store
