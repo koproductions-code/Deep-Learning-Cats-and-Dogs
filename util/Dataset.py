@@ -5,7 +5,7 @@ class Dataset(object):
 
     def __init__(self, path):
         self.dogs_path = 'dataset/PetImages/Dog'
-        self.cats_path = 'dataset3/Cat'
+        self.cats_path = 'dataset/PetImages/Cat'
 
         self.real_data = path
 
