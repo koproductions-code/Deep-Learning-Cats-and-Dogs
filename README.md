@@ -3,8 +3,8 @@
 ## Installation
 Clone this repository and cd into it.
 ```bash
-git clone https://github.com/koproductions-code/Deep-Learning-Training
-cd Deep-Learning-Training
+git clone https://github.com/koproductions-code/Deep-Learning-Cats-and-Dogs
+cd Deep-Learning-Cats-and-Dogs
 ```
 
 Use pip to install all requirements.
