@@ -27,6 +27,8 @@ Extract the downloaded file into the downloaded directory and rename the folder 
 ├── README.md
 ├── requirements.txt
 ├── models
+├── Fares-Elmenshawii-License.md
+├── LICENSE.md
 └── util
 ```
 
