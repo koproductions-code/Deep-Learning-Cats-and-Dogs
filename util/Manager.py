@@ -1,5 +1,6 @@
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+import platform
 
 import numpy as np
 import tensorflow as tf
@@ -77,7 +78,12 @@ class Manager(object):
 
         self.model = Model(inputs=inputs, outputs=x)
 
-        self.model.compile(optimizer=tf.keras.optimizers.RMSprop(learning_rate=0.001),
+        if platform.processor == "arm":
+            self.optimizer = tf.keras.optimizers.legacy.RMSprop(learning_rate=0.001)
+        else:
+            self.optimizer = tf.keras.optimizers.RMSprop(learning_rate=0.001)
+
+        self.model.compile(optimizer=self.optimizer,
                     loss='sparse_categorical_crossentropy',
                     metrics = ['accuracy'])
     
