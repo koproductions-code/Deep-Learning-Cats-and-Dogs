@@ -78,7 +78,7 @@ class Manager(object):
 
         self.model = Model(inputs=inputs, outputs=x)
 
-        if platform.processor == "arm":
+        if platform.processor() == "arm":
             self.optimizer = tf.keras.optimizers.legacy.RMSprop(learning_rate=0.001)
         else:
             self.optimizer = tf.keras.optimizers.RMSprop(learning_rate=0.001)
